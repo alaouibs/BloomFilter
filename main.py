@@ -40,5 +40,5 @@ print('\n')
 bloom1 = BloomFilterEvolution(128, 20)
 bloom2 = BloomFilterEvolution(128, 80)
 
-print(str(bloom1.k) + " algorithmes de hachage sont nécesaire pour minimiser les chances de collisions si l'on insère 20 éléments dans un tableau de 128 cases")
-print(str(bloom2.k) + " algorithmes de hachage sont nécesaire pour minimiser les chances de collisions si l'on insère 20 éléments dans un tableau de 128 cases")
+print(str(bloom1.k) + " algorithmes de hachage sont nécessaires pour minimiser les chances de collisions si l'on insère 20 éléments dans un tableau de 128 cases")
+print(str(bloom2.k) + " algorithmes de hachage sont nécessaires pour minimiser les chances de collisions si l'on insère 20 éléments dans un tableau de 128 cases")
