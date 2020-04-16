@@ -3,7 +3,6 @@ Implémentation d'une classe BloomFilter
 
 ## Pour commencer
 
-Les modules à installer
 ```sh
 pip3 install bitarray
 pip3 install pytest
