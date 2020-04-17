@@ -37,12 +37,8 @@ class BloomFilter(object):
         ''' 
         Add an item in the filter 
         '''
-        dupe = True
         for i in self.hash_indexes(item):
-            if dupe and not self.bits[i]:
-                dupe = False
             self.bits[i] = True
-        return dupe
 
     def test(self, item):
         ''' 
@@ -51,7 +47,7 @@ class BloomFilter(object):
         for i in self.hash_indexes(item):
             if not self.bits[i]:
                 # if any of bit is False then,its not present in filter 
-                # else there is probability that it exist 
+                # else there is probability that it exists 
                 return False
         return True
 
