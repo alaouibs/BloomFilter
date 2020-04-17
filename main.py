@@ -26,7 +26,7 @@ shuffle(word_absent)
 test_words = word_present[:10] + word_absent 
 
 for word in test_words: 
-    if word in bloomf: 
+    if bloomf.test(word): 
         if word in word_absent: 
             print("'{}' est un faux positif !".format(word)) 
         else: 

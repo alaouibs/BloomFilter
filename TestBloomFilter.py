@@ -54,9 +54,9 @@ class TestBloomFilter(unittest.TestCase):
         k = 3
         m = 128
         bloom = BloomFilter(m, k)
-        self.assertFalse('#' in bloom)
+        self.assertFalse(bloom.test('#'))
         bloom.add("#")
-        self.assertTrue('#' in bloom)
+        self.assertTrue(bloom.test('#'))
 
 class TestBloomFilterEvolution(unittest.TestCase):
     def test_bloomEvolution_creation(self):

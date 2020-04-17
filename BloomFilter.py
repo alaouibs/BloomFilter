@@ -44,7 +44,7 @@ class BloomFilter(object):
             self.bits[i] = True
         return dupe
 
-    def __contains__(self, item):
+    def test(self, item):
         ''' 
         Check for existence of an item in filter 
         '''
