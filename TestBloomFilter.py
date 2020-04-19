@@ -13,7 +13,6 @@ import unittest
 import random
 import tempfile
 
-import pytest
 from bitarray import bitarray 
 
 

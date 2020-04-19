@@ -5,7 +5,6 @@ Implémentation d'une classe BloomFilter
 
 ```sh
 pip3 install bitarray
-pip3 install pytest
 ```
 
 ## Exemple d'utilisation  
