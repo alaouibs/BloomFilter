@@ -16,6 +16,5 @@ pip3 install pytest
 >>> f.test("hello")
 False
 >>> f.test("hello")
->>> "hello" in f
 True
 ```
