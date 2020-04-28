@@ -4,7 +4,7 @@ Implémentation d'une classe BloomFilter
 ## Pour commencer
 
 ```sh
-pip3 install bitarray
+pip3 install -r requirements.txt 
 ```
 
 ## Exemple d'utilisation  
